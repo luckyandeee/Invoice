@@ -178,9 +178,9 @@
          doc.text(20, 120, '\u2022 ' + "Booking will be confirmed only after receiving the advance payment and availability of the mentioned hotels.");
          doc.text(20, 125, '\u2022 ' + "In case of non-availability of a room in the chosen hotel, a similar hotel category will be given to you.");
          doc.text(20, 130, '\u2022 ' + "Hotels for each category are selected as per the budget and through our feedback system. We suggest you check reviews and locations of hotels mentioned to make sure it is as per your preferences before confirming the package.", { maxWidth: 170, align: 'justify' });
-         doc.text(20, 145, '\u2022 ' + "ON A TRIP Travel Company does not have any hidden charges except for your lunch and personal expenses. During the journey, if someone asks for extra money, inform us. We will not be responsible if you pay the amount without our concern.", { maxWidth: 170, align: 'justify' });
+         doc.text(20, 145, '\u2022 ' + "ON A TRIP HOLIDAYS does not have any hidden charges except for your lunch and personal expenses. During the journey, if someone asks for extra money, inform us. We will not be responsible if you pay the amount without our concern.", { maxWidth: 170, align: 'justify' });
          doc.text(20, 160, '\u2022 ' + "Any extra bed/breakfast for kids which is not mentioned must be paid for directly by the guest to hotel.");
-         doc.text(20, 165, '\u2022 ' + "ON A TRIP Travel company will not be liable for any natural calamities.");
+         doc.text(20, 165, '\u2022 ' + "ON A TRIP HOLIDAYS will not be liable for any natural calamities and traffic issues. ");
          doc.text(20, 170, '\u2022 ' + "No accommodation, meal, or cost of transport would be paid, reimbursed, or compensated.");
          doc.text(20, 175, '\u2022 ' + "All buffet meals/room service will be provided as per the hotel policy.");
 
@@ -189,10 +189,11 @@
          doc.text(15, 190, "CANCELLATION POLICY:");
          doc.setFontType("normal");
          doc.setFontSize("10");
-         doc.text(20, 195, '\u2022 ' + "Cancellation charges of 50% will apply if a confirmed reservation is cancelled between 30 to 15 days from the date of arrival.", { maxWidth: 170, align: 'justify' });
-         doc.text(20, 205, '\u2022 ' + "Cancellation charges of 75% will apply if a confirmed reservation is cancelled between 15 to 7 days from the date of arrival.", { maxWidth: 170, align: 'justify' });
-         doc.text(20, 215, '\u2022 ' + "Cancellation charges of 100% will apply if a confirmed reservation is cancelled within a week of the date of arrival. If the booking is cancelled 30 days before, then per-person communication service charges of INR 1000/- will be applicable, followed by the cancellation policy.", { maxWidth: 170, align: 'justify' });
-         doc.text(20, 228, '\u2022 ' + "No-shows and early departures will result in 100% of the entire day's charges.");
+         doc.text(20,195, "* BOOKING AMOUNT IS NON REFUNDABLE*", { maxWidth: 170, align: 'justify' });
+         doc.text(20, 200, '\u2022 ' + "Cancellation charges of 50% will apply if a confirmed reservation is cancelled between 30 to 15 days from the date of arrival.", { maxWidth: 170, align: 'justify' });
+         doc.text(20, 210, '\u2022 ' + "Cancellation charges of 75% will apply if a confirmed reservation is cancelled between 15 to 7 days from the date of arrival.", { maxWidth: 170, align: 'justify' });
+         doc.text(20, 220, '\u2022 ' + "Cancellation charges of 100% will apply if a confirmed reservation is cancelled within a week of the date of arrival. If the booking is cancelled 30 days before, then per-person communication service charges of INR 1000/- will be applicable, followed by the cancellation policy.", { maxWidth: 170, align: 'justify' });
+         doc.text(20, 233, '\u2022 ' + "No-shows and early departures will result in 100% of the entire day's charges.");
 
          doc.line(10, 10, 200, 10);
          doc.line(10, 10, 10, 300);
@@ -201,7 +202,7 @@
          //footer
          doc.text(30, 275, "Contact us: 9182894146, 8125248909");
          doc.text(30, 280, "Address : 16-2-701/6/14A BanarasArcade, Besides Yezdi showroom,malakpet Hyderabad 500036.");
-         doc.textWithLink("Email: " + "onatripholidays@gmail.com", 30, 285, { url: 'mailto:' });
+         doc.textWithLink("Email: " + "travel@onatripholidays.com", 30, 285, { url: 'mailto:travel@onatripholidays.com' });
          doc.textWithLink("Instagram: " + "onatripholidays", 30, 290, { url: 'https://www.instagram.com//' });
          var filename = bookingid + '-' + customername + '-' + bookingdate + '.pdf';
          
